@@ -1,36 +1,3 @@
-> Color palletes:
-- https:#coolors.co/
-- https:#colorhunt.co/
-
-> React uses Pascal case component casing.
-Component casing types:
-1. PasingCase
-2. snake_case 
-3. kebab-case 
-4. camelCase 
-
-> Why should we use fragment instead of div, when div is not required?
-div takes additional memory than <>, when theres no need to use div, but you just want to use a container, use fragments instead 
-
-instead of <> we can event write <React.Fragment></React.Fragment>
-
-> how to center align a  div using styling? 
-![](2.PNG)
-- Transform: translate(-50%, -50%);
-- top:50% and left:50%
-
-> How do we declare a root variable in css?
-```bash
-# define the scope within which it s available 
-:root{
-    --dark-blue: #3D5A80;
-    --light-blue: #98C1D9;
-}
-
-body{
-    background-color: var(--dark-blue, yellow);
-    # if it doesnt find dark blue, it shows the fallback variable instead, in this case its yellow
-```
 > What are hooks? What's the use of useState hook?
 Hooks are special functions which helps you hook into the application. eg: useState, useCallback, useEffect.
 
